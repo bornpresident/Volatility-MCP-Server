@@ -1,0 +1,45 @@
+# Python generated files
+__pycache__
+*.pyc
+
+# Sphinx generated files
+doc/build
+doc/source/volatility3.*
+
+# Pycharm/PyDev development files
+workspace.xml
+.idea
+.vscode
+
+# Manually generated files
+.mypy_cache
+stubs
+volatility3/symbols/linux*
+volatility3/symbols/windows*
+volatility3/symbols/mac*
+
+# Mac metadata files
+.DS_Store
+
+# Volatility's config
+config*.json
+
+# Pyinstaller files
+build
+dist
+*.egg-info
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Memory dump files
+*.dmp
+*.vmem
+*.img
+
+# PyTest cache files
+.pytest_cache/
