@@ -2,6 +2,17 @@
 
 A Model Context Protocol (MCP) server that integrates Volatility 3 memory forensics framework with Claude and other MCP-compatible LLMs.
 
+## Why This Matters
+
+In India, digital forensic investigators face a massive backlog of cases due to the country's large population and rising cybercrime rates. This tool helps address this challenge by:
+
+- Allowing investigators to analyze memory dumps using simple natural language instead of complex commands
+- Reducing the technical expertise needed to perform memory forensics
+- Accelerating the analysis process through automation
+- Helping clear case backlogs and deliver faster results to the judicial system
+
+By making memory forensics more accessible, this tool can significantly reduce the burden on forensic experts and improve cybersecurity response across India.
+
 ## Overview
 
 This project bridges the powerful memory forensics capabilities of the Volatility 3 Framework with Large Language Models (LLMs) through the Model Context Protocol (MCP). It allows you to perform memory forensics analysis using natural language by exposing Volatility plugins as MCP tools that can be invoked directly by Claude or other MCP-compatible LLMs.
@@ -143,12 +154,3 @@ This server can be extended by:
 
 [MIT License](LICENSE)
 
-## Acknowledgments
-
-- [Volatility Foundation](https://www.volatilityfoundation.org/) for the Volatility 3 Framework
-- [Model Context Protocol](https://modelcontextprotocol.io/) for the MCP specification
-- [Anthropic](https://www.anthropic.com/) for Claude
-
-## Contact
-
-If you have any questions or feedback, please open an issue on this repository.
