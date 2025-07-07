@@ -1,4 +1,5 @@
 # Volatility MCP Server
+[![smithery badge](https://smithery.ai/badge/@bornpresident/volatility-mcp-server)](https://smithery.ai/server/@bornpresident/volatility-mcp-server)
 
 A Model Context Protocol (MCP) server that integrates Volatility 3 memory forensics framework with Claude and other MCP-compatible LLMs.
 
@@ -36,6 +37,17 @@ This project bridges the powerful memory forensics capabilities of the Volatilit
 - MCP Python SDK (`mcp` package)
 
 ## Installation
+
+
+### Installing via Smithery
+
+To install volatility-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@bornpresident/volatility-mcp-server):
+
+```bash
+npx -y @smithery/cli install @bornpresident/volatility-mcp-server --client claude
+```
+
+### Manual Installation
 
 1. Clone this repository:
    ```bash
@@ -153,4 +165,3 @@ This server can be extended by:
 ## License
 
 [MIT License](LICENSE)
-
