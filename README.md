@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/bornpresident-volatility-mcp-server-badge.png)](https://mseep.ai/app/bornpresident-volatility-mcp-server)
+
 # Volatility MCP Server
 
 A Model Context Protocol (MCP) server that integrates Volatility 3 memory forensics framework with Claude and other MCP-compatible LLMs.
